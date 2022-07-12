@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --primaryLight: #2E2636;
+  --primaryDark: #19171B;
+  --hoverDark: #242128;
+  --accentDark: #1c062c;
+  --violet: #AC96CF;
+  --pink: #CD8ABA;
+  --blue: #AFDCE2;
+
+  --primaryRadius: 10px;
+  --secondaryRadius: 5px;
+
+  --primaryFontFam: 'Space Grotesk', sans-serif;
+  --headingFontFam: 'Krona One', sans-serif;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--primaryLight);
+  height: 100vh;
+  width: 100vw;
+}
+.App h3{
+  font-family: var(--primaryFontFam);
+  font-weight: 300;
+  color: #ACACAC;
+  
+  margin: 0rem;
+}
+.App h1{
+  font-family: var(--headingFontFam);
+  font-size: 3rem;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  
+  margin: 0rem;
+  margin-bottom: 1rem;
+}
+.body{
+  color: white;
+  font-family: var(--primaryFontFam);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  line-height: 1.8rem;
+}
+.icons{
+  margin-top: 0.5rem;
+}
+.CardsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.RightContainer{
+  margin-left: 6rem;
+}
+
+@media (max-width: 800px) {
+  .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--primaryLight);
+    height: auto;
+    width: 100vw;
+  }
+  .App h3{
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .App h1{
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0rem;
+  }
+  .CardsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .RightContainer{
+    margin-left: 0rem;
+    margin-bottom: 5rem;
+  }
+}

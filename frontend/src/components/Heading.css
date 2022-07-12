@@ -1,0 +1,17 @@
+.Heading{
+    font-family: var(--primaryFontFam);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.pinkText{
+    color: var(--pink);
+}
+.violetText{
+    color: var(--violet);
+}
+.whiteText{
+    color: white;
+}
+.blueText{
+    color: var(--blue);
+}

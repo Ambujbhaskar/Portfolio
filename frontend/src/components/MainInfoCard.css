@@ -1,0 +1,20 @@
+.infoCard{
+    transition: all 1.5s ease-in;
+    background-color: var(--primaryDark);
+    min-height: 20rem;
+    max-width: 30rem;
+    border-radius: var(--primaryRadius);
+    padding: 3rem;
+}
+.infoCard:hover {
+    transition: all 1.5s ease-in;
+    background-color: var(--accentDark);
+}
+@media (max-width:800px) {
+    .infoCard{
+        margin: 2rem;
+        padding: 1.8rem;
+        min-width: 10rem;
+        margin-bottom: 2rem;
+    }
+}

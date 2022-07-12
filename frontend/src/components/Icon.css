@@ -1,0 +1,10 @@
+.icon {
+    padding-right: 0.5rem;
+}
+.icon img {
+    max-height: 1.5rem;
+    cursor: pointer;
+}
+.icon img:hover {
+    transform: translateY(-0.1rem);
+}

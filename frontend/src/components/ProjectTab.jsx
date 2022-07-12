@@ -1,0 +1,13 @@
+import Heading from './Heading';
+import './ProjectTab.css';
+
+export default function ProjectTab({
+    name = "Project Name",
+    link = "#"
+}) {
+    return (
+        <div className="projectTab" onClick={() => {window.open(link, '_blank');}}>
+            <Heading color='white' text={name} />
+        </div>
+    );
+}
