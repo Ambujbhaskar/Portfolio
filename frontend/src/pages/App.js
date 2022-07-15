@@ -5,19 +5,19 @@ import './App.css';
 function App() {
   const projects = [
     {
-      name: "Tourela",
+      name: "Garima",
       link: "#"
     },
     {
-      name: "IIITD Chat",
+      name: "Poggers",
       link: "https://iiitd-chat.herokuapp.com"
     },
     {
-      name: "Pawriwar",
+      name: "Anshul",
       link: "#"
     },
     {
-      name: "HCD",
+      name: "Bruh",
       link: "http://test-hcd.herokuapp.com"
     }
   ]
@@ -29,7 +29,7 @@ function App() {
           Hello I'm
         </h3>
         <h1>
-          Ambuj Bhaskar
+          High Cast Brahmin
         </h1>
         <div className='CardsContainer'>
           <MainInfoCard />
