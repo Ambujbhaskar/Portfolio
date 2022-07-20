@@ -1,26 +1,9 @@
 import MainInfoCard from '../components/MainInfoCard';
 import ProjectTab from '../components/ProjectTab';
+import projects from '../projects.json';
 import './App.css';
 
 function App() {
-  const projects = [
-    {
-      name: "Tourela",
-      link: "#"
-    },
-    {
-      name: "IIITD Chat",
-      link: "https://iiitd-chat.herokuapp.com"
-    },
-    {
-      name: "Pawriwar",
-      link: "#"
-    },
-    {
-      name: "HCD",
-      link: "http://test-hcd.herokuapp.com"
-    }
-  ]
 
   return (
     <div className="App">
