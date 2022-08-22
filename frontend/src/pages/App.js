@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <span className='leftContainer'>
         <h3>
-          Hello I'm
+          Hello, I'm
         </h3>
         <h1>
           Ambuj Bhaskar
