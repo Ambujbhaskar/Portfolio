@@ -3,10 +3,11 @@ import './ProjectTab.css';
 
 export default function ProjectTab({
     name = "Project Name",
-    link = "#"
+    link = "#",
+    className = ""
 }) {
     return (
-        <div className="projectTab" onClick={() => {window.open(link, '_blank');}}>
+        <div className={className + " projectTab"} onClick={() => {window.open(link, '_blank');}}>
             <Heading color='white' text={name} />
         </div>
     );

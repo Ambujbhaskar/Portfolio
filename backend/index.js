@@ -4,4 +4,4 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, '../frontend/build')));
 
-app.listen(80, ()=>{console.log("Server started!")});
+app.listen(80, ()=>{ console.log("\nServer started!\n")});
