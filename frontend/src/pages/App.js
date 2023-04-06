@@ -16,7 +16,7 @@ function App() {
             {
               projects.map((project) => <ProjectTab name={project.name} link={project.link} />)
             }
-            <ProjectTab name="Resume" link='https://drive.google.com/file/d/1et_y_mqMCrdt0v1JYMdYAZa10A6p7wsF/view?usp=sharing' className='glow' />
+            <ProjectTab name="Resume" link='https://drive.google.com/file/d/1et_y_mqMCrdt0v1JYMdYAZa10A6p7wsF/view?usp=share_link' className='glow' />
           </span>
         </div>
       </span>
