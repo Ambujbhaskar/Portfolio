@@ -1,18 +1,18 @@
 [
     {
-      "name": "Tourela",
-      "link": "https://github.com/Ambujbhaskar/Tourela"
-    },
-    {
       "name": "IIITD Chat",
-      "link": "https://iiitd-chat.herokuapp.com"
+      "link": "https://github.com/Ambujbhaskar/IIITDchat"
     },
     {
-      "name": "Pawriwar",
-      "link": "https://github.com/Ambujbhaskar/Pawriwar-website"
+      "name": "Parametric Surfaces in OpenGL",
+      "link": "https://github.com/Ambujbhaskar/Parametric-Surface-generation-and-shading"
+    },
+    {
+      "name": "Image Morphing",
+      "link": "https://github.com/KaranMano/Image-Morphing"
     },
     {
       "name": "HCD",
-      "link": "http://test-hcd.herokuapp.com"
+      "link": "https://hcd.iiitd.ac.in"
     }
 ]
